@@ -54,9 +54,10 @@ I learned a lot about using grid especially grid-template as a grid shorthand pr
     grid-template: 
         "daniel daniel jonathan kira" 1fr
         "jeanette patrick patrick kira" 1fr
-        / 250px 250px 250px 250px;
+        / 1fr 1fr 1fr 1fr;
     gap: 30px;
     margin: 40px 0 40px 0;
+    max-width: 80%;
 }
 ```
 
@@ -71,7 +72,7 @@ i also use media queries to make it responsive on mobile devices
             "jeanette" auto
             "patrick" auto
             "kira" auto
-            / 300px;
+            / 1fr;
     }
 }
 ```
